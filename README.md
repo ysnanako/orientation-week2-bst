@@ -85,7 +85,7 @@ Below are the generated plots from the `matlab` output:
 **init**  
 ![initial](https://github.com/user-attachments/assets/9fc6dba6-4e92-478f-8bbc-7dd48dccb0c2)  
 **sa**  
-![sa](https://github.com/user-attachments/assets/5bbe9a6d-42a3-4c11-9381-9360f66b9594)  
+![sa2](https://github.com/user-attachments/assets/11e01aec-11b2-4d90-bc43-764f43d55d6a)  
 
 ## 🤝 Contribution Guide
 
