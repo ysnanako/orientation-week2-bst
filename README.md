@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week2-bst)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week2-bst)
 
-This project is part of the **National Cheng Kung University (NCKU) - VLSI/CAD Group** course **"Physical Design for Nanometer IC"**, focusing on **Binary Search Tree (BST) with Simulated Annealing (SA)** for **module placement optimization**.
+This project is part of the **National Cheng Kung University (NCKU) - VLSI/CAD Group "Smart Electronic Design Automation Laboratory"** orientation, focusing on **Binary Search Tree (BST) with Simulated Annealing (SA)** for **module placement optimization**.
 
 ## 📖 Table of Contents
 
@@ -13,13 +13,13 @@ This project is part of the **National Cheng Kung University (NCKU) - VLSI/CAD G
 - [Project Structure](#project-structure)
 - [BST Operations & SA Optimization](#bst-operations--sa-optimization)
 - [Example Execution](#example-execution)
-- [Validation](#validation)
+- [Generated Plots](#generated-plots)
 - [Contribution Guide](#contribution-guide)
 - [Contact Information](#contact-information)
 
 ## 📝 Project Overview
 
-This project implements **a Binary Search Tree (BST) for module placement** while utilizing **Simulated Annealing (SA) to optimize placement efficiency**. The primary objective is to achieve **optimized module placement within a fixed outline** by **minimizing Half-Perimeter Wire Length (HPWL)**.
+This project implements a **Binary Search Tree (BST) for module placement** while utilizing **Simulated Annealing (SA) to optimize placement efficiency**. The primary objective is to achieve **optimized module placement within a fixed outline** by **minimizing Half-Perimeter Wire Length (HPWL)**.
 
 ### **Key Features:**
 1. **Parsing input files for circuit module data**.
@@ -32,7 +32,6 @@ This project implements **a Binary Search Tree (BST) for module placement** whil
 
 This project follows a specific **YAL-based input format**:
 - **.yal** - Contains circuit modules and dimensions.
-- **Aspect ratio and whitespace constraints** are provided as command-line arguments.
 
 📄 **Example Input File**
 ```
@@ -44,21 +43,19 @@ MODULE bk2 DIMENSIONS 150 100
 ## 📄 Output Format
 
 After execution, the program generates **BST-based placement results**:
-- **.out** - Contains final module placement coordinates.
-- **.txt** - Includes runtime and HPWL evaluation.
 - **.m** - MATLAB script for visualization.
 
 ## 🧰 Project Structure
 
-📂 orientation-week2-bst/
-│── 📂 src/ # (BST.cpp, BST.h, main.cpp, and headers)
-│── 📂 obj/ # (ignored)
-│── 📂 output/ # (Generated .out, .txt, .m files)
-│── 🔧 Makefile
-│── 📜 README.md # This file
-│── 📜 .gitignore
-
-../📂 benchmarks/ # (located outside the repo)
+📂 orientation-week2-bst/  
+│── 📂 src/ # (fm.cpp, fm.h, parser.cpp, parser.h, and main.cpp)  
+│── 📂 obj/ # (ignored)  
+│── 📄 benchmark.yal # (ignored)  
+│── 📄 benchmark.m # (ignored)  
+│── 🖥️ BST # (ignored)  
+│── 🔧 Makefile  
+│── 📜 README.md  
+│── 📜 .gitignore  
 
 ## 🔹 **BST Operations & SA Optimization**
 
@@ -79,19 +76,16 @@ After execution, the program generates **BST-based placement results**:
 ## ⚡ **Example Execution**
 
 ```bash
-./BST_StudentID input.yal 1 10 output.txt output.out output.m
+./BST input.yal output.m
 ```
 
-## ✅ Validation
+## 🖼️ Generated Plots
+Below are the generated plots from the `matlab` output: 
 
-### **Legality Check & HPWL Calculation**
-
-- Ensures **no overlaps between modules**.
-- Computes total **Half-Perimeter Wire Length (HPWL)**.
-
-```bash
-python3 tester.py --case example_circuit
-```
+**init**  
+![initial](https://github.com/user-attachments/assets/9fc6dba6-4e92-478f-8bbc-7dd48dccb0c2)  
+**sa**  
+![sa](https://github.com/user-attachments/assets/5bbe9a6d-42a3-4c11-9381-9360f66b9594)  
 
 ## 🤝 Contribution Guide
 
