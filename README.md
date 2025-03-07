@@ -47,6 +47,7 @@ After execution, the program generates **BST-based placement results**:
 
 ## 🧰 Project Structure
 
+```
 📂 orientation-week2-bst/  
 │── 📂 src/ # (fm.cpp, fm.h, parser.cpp, parser.h, and main.cpp)  
 │── 📂 obj/ # (ignored)  
@@ -56,6 +57,7 @@ After execution, the program generates **BST-based placement results**:
 │── 🔧 Makefile  
 │── 📜 README.md  
 │── 📜 .gitignore  
+```
 
 ## 🔹 **BST Operations & SA Optimization**
 
