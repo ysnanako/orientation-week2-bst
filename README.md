@@ -99,4 +99,5 @@ Below are the generated plots from the `matlab` output:
 
 - 📧 Email: [m16131056@gs.ncku.edu.tw](mailto:m16131056@gs.ncku.edu.tw)
 - 🌎 University: [National Cheng Kung University (NCKU)](https://www.ncku.edu.tw)
-- 📖 Course: Physical Design for Nanometer IC, Fall 2024
+- 📖 Course: Summer Training Program - CUDA Parallel Computing
+
