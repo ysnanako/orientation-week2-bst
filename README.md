@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week2-bst)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week2-bst)
 
-This project is part of the **National Cheng Kung University (NCKU) - VLSI/CAD Group "Smart Electronic Design Automation Laboratory"** orientation, focusing on **Binary Search Tree (BST) with Simulated Annealing (SA)** for **module placement optimization**.
+This project is part of the **National Cheng Kung University (NCKU) - Smart Electronic Design Automation Laboratory (SEDA)** summer training program, focusing on **Binary Search Tree (BST) with Simulated Annealing (SA)** for **module placement optimization**.
 
 ## 📖 Table of Contents
 
