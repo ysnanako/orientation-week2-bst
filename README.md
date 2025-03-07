@@ -51,7 +51,7 @@ After execution, the program generates **BST-based placement results**:
 │── 📂 src/ # (fm.cpp, fm.h, parser.cpp, parser.h, and main.cpp)  
 │── 📂 obj/ # (ignored)  
 │── 📄 benchmark.yal # (ignored)  
-│── 📄 benchmark.m # (ignored)  
+│── 📄 benchmark.m  
 │── 🖥️ BST # (ignored)  
 │── 🔧 Makefile  
 │── 📜 README.md  
