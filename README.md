@@ -1,4 +1,4 @@
-# orientation-week2-bst
+# summer-training-week2-bst
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week2-bst)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week2-bst)
